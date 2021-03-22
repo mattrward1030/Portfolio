@@ -58,6 +58,10 @@ section {
     background-color:#ffd7ba;
 }
 
+#btn {
+    color:#748fa0;
+    border-color: #748fa0;
+}
 
 @media screen and (max-width:768px) {
     .intro-left {
