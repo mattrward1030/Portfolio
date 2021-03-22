@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;300;400;700;800&family=Montserrat:ital,wght@0,200;0,300;1,100;1,200&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Portfolio</title>
@@ -25,7 +28,7 @@
     <div class="conatiner-fluid">
         <div class="row">
             <div class="col-md-4"></div>
-            <div class="col-md-8 panel-right">
+            <div class="col-md-8 panel-right px-0">
                 <section class="quote">
                     <figure>
                         <blockquote class="blockquote">
@@ -47,7 +50,7 @@
                 </section>
 
                 <section class="projects">
-                    <h2 class="display-6">My projects:</h2>
+                    <h2 class="display-6 mb-5">My projects:</h2>
                     <div class="container-fluid">
                         <div class="row gy-5">
                             <div class="col-md-6"><img src="./assets/images/schedule.jpg" alt="babysitter schedule"
@@ -76,6 +79,49 @@
                         </div>
                     </div>
                 </section>
+
+                <section class="contact">
+                    <h2 class="display-6 mb-5">Contact Me</h2>
+
+                    <div class="container-fluid"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name:</label>
+                                <input type="text" class="form-control" id="name" placeholder="John Doe">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="name@example.com">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Enter your message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-outline-dark float-right">Send</button>
+
+
+                </section>
+
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <dic class="row">
+                            <div class="col-md-3 text-center">Github</div>
+                            <div class="col-md-3 text-center">Linkedin</div>
+                            <div class="col-md-3 text-center">email</div>
+                            <div class="col-md-3 text-center">number</div>
+                        </dic>
+                    </div>
+                </footer>
             </div>
         </div>
     </div>

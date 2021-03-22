@@ -6,6 +6,7 @@ body , html {
 body {
     font-weight: 300;
     font-size: 1.5rem;
+    font-family: 'BioRhyme', serif;
     color: #444;
 }
 
@@ -32,12 +33,26 @@ body {
 
 .quote {
     float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: italic;
 }
 
 section {
     margin: 5rem;
     font-size: 1.5rem;
 }
+
+.footer {
+    background-color: beige;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.panel-right {
+    background-color: beige;
+}
+
 
 @media screen and (max-width:768px) {
     .intro-left {
