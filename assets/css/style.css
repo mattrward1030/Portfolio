@@ -7,7 +7,7 @@ body {
     font-weight: 300;
     font-size: 1.5rem;
     font-family: 'BioRhyme', serif;
-    color: #748fa0;
+    color: #4a697a;
 }
 
 .intro-left {
@@ -16,7 +16,7 @@ body {
     left: 0;
     width: 33%;
     height: 100%;
-    color: #633731;
+    color: #54302b;
 }
 
 .avatar {
@@ -44,23 +44,23 @@ section {
 }
 
 .footer {
-    background-color: #ffd7ba;
+    background-color: #ffe1cc;
     
     margin: 0;
 }
 
 .footer a {
     text-decoration: none;
-    color:#748fa0 ;
+    color:#4a697a ;
 }
 
 .panel-right {
-    background-color:#ffd7ba;
+    background-color:#ffe1cc;
 }
 
 #btn {
-    color:#748fa0;
-    border-color: #748fa0;
+    color:#4a697a;
+    border-color: #4a697a;
 }
 
 @media screen and (max-width:768px) {
