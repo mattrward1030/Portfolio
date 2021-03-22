@@ -1,0 +1,36 @@
+body , html {
+    height: 100%;
+
+}
+
+body {
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #444;
+}
+
+.intro-left {
+    background: url(../images/profile-background.jpg);
+    position: fixed;
+    left: 0;
+    width: 33%;
+    height: 100%;
+}
+
+.avatar {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 1rem;
+
+}
+
+
+@media screen and (max-width:768px) {
+    .intro-left {
+        height: 30vh;
+        margin-bottom: 0;
+        position: relative;
+        width: 100%;
+    }
+}
