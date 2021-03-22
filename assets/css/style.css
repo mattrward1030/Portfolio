@@ -45,8 +45,13 @@ section {
 
 .footer {
     background-color: #ffd7ba;
-    font-size: 2rem;
+    
     margin: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color:#748fa0 ;
 }
 
 .panel-right {
