@@ -65,7 +65,7 @@ section {
 
 @media screen and (max-width:768px) {
     .intro-left {
-        height: 30vh;
+        height: 50vh;
         margin-bottom: 0;
         position: relative;
         width: 100%;
