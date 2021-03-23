@@ -48,6 +48,12 @@ section {
     color: #4a697a;
     
 }
+
+.resume a:hover {
+    
+    color: black;
+    
+}
 /* need to change size and maybe add media query */
 .footer {
     background-color: #ffe1cc;
